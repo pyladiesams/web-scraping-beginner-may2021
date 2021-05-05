@@ -1,10 +1,10 @@
 
-# An introduction to { YOUR TOPIC } or A deep dive into { YOUR TOPIC }
-### Level: Beginner or Advanced
+# An introduction to Web Scraping with Python and Azure Functions
+### Level: Beginner 
 ### Presentation: [Presentation_name](workshop/Presentation_template.pptx)
 
 ## Workshop description
-Describe why your topic is important and what you want to share with your audience
+During the workshop you will learn how to implement a web scraper using Scrapy, store the output in a Blob storage on Azure, and use an Azure function to generate a wordcloud of the text obtained.
 
 ## Requirements
 Do not forget to indicate Python version and any other tools
