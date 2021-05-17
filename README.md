@@ -1,7 +1,7 @@
 
 # An introduction to Web Scraping with Python and Azure Functions
 ### Level: Beginner 
-### Presentation: [Presentation_name](workshop/Presentation_template.pptx)
+### Presentation: [Presentation_slides](workshop/Workshop_presentation.pptx)
 
 ## Workshop description
 During the workshop you will learn how to implement a web scraper using Scrapy, store the output in a Blob storage on Azure, and use an Azure function to generate a wordcloud of the text obtained.
@@ -12,10 +12,10 @@ Do not forget to indicate Python version and any other tools
 
 ## Usage
 * Clone the repository
-* Start { TOOL } and navigate to the workshop folder
+* Start Visual Studio Code and navigate to the workshop folder
 
 ## Video record
 Will be available within 1-2 weeks after the event
 
 ## Credits
-This workshop was set up by @pyladiesams and {your github handler}
+This workshop was set up by @pyladiesams and @danielamiranda
