@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "inputBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "input/{name}",
+      "connection": "pyladiesamsterdamsa_STORAGE"
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "direction": "out",
+      "path": "output/{name}",
+      "connection": "pyladiesamsterdamsa_STORAGE"
+    }
+  ]
+}

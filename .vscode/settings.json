@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "C:\\Users\\DanielaMiranda\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "azureFunctions.deploySubpath": "solutions\\wordcloud_azure_function",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen"
+}

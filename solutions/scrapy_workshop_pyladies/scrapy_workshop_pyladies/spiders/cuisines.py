@@ -13,7 +13,6 @@ class CuisinesSpider(scrapy.Spider):
 
         # # FOR TEST
         # cuisines = ['african']
-        cuisines = ['african', 'korean']
 
         for cuisine in cuisines:
             url = 'https://www.bbc.co.uk/food/search?cuisines=' + cuisine
@@ -22,16 +21,29 @@ class CuisinesSpider(scrapy.Spider):
 
 
     def parse(self, response):
-        item = ScrapyWorkshopPyladiesItem()
-
         # Cuisine
-        item['cuisine'] = response.meta['cuisine']
+        cuisine = response.meta['cuisine']
+        print(f"Cuisine to scrape: {cuisine}")
 
         bs_obj = BeautifulSoup(response.text, 'lxml')
 
-        # Field: name of the recipe
-        item['name_recipe'] = bs_obj.find_all('h3', {'class': 'promo__title gel-pica'})
+        # File name to be saved
+        filename = f'data_scraped/quotes-{cuisine}.txt'
+        textfile = open(filename, "w")
+        
+        print("Recipes to save: ")
+        # Recipes with images
+        for n in bs_obj.find_all('h3', {'class': 'promo__title gel-pica'}):
+            rec_name =  n.get_text()
+            print(rec_name)
+            textfile.write(rec_name + "\n")
 
+        # Recipes with no images
+        for n in bs_obj.find_all('h3', {'class': 'promo__title promo__title-no-image gel-double-pica'}):
+            rec_name =  n.get_text()
+            print(rec_name)
+            textfile.write(rec_name + "\n")
 
-        print('item to add: ', item)
-        #yield item
+        textfile.close()
+        print('File succesfully saved')
+

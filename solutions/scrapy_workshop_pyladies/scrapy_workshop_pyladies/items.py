@@ -8,6 +8,6 @@ import scrapy
 
 class ScrapyWorkshopPyladiesItem(scrapy.Item):
     # define the fields for your item here like:
-
-    cuisine = scrapy.Field()
-    name_recipe = scrapy.Field()
+    # cuisine = scrapy.Field()
+    # name_recipes = scrapy.Field()
+    example = scrapy.Field()
