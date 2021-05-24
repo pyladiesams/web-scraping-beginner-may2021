@@ -2,18 +2,25 @@
   "scriptFile": "__init__.py",
   "bindings": [
     {
-      "name": "inputBlob",
+      "name": "myBlob",
       "type": "blobTrigger",
       "direction": "in",
       "path": "input/{name}",
-      "connection": "pyladiesamsterdamsa_STORAGE"
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "name": "inputBlob",
+      "type": "blob",
+      "direction": "in",
+      "path": "input/{name}",
+      "connection": "AzureWebJobsStorage"
     },
     {
       "name": "outputBlob",
       "type": "blob",
       "direction": "out",
       "path": "output/{name}",
-      "connection": "pyladiesamsterdamsa_STORAGE"
+      "connection": "AzureWebJobsStorage"
     }
   ]
 }
