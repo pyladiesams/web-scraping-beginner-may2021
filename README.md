@@ -9,7 +9,7 @@ During the workshop you will learn how to implement a web scraper using Scrapy, 
 ## Requirements
 Python version: 3.8.5
 
-You can check the required python libraries to run this project [here](https://github.com/pyladiesams/web-scraping-beginner-may2021/solutions/requirements.txt)
+You can check the required python libraries to run this project [here](solutions/requirements.txt)
 
 #### Tools:
 * Source-code editor: Visual Studio Code
@@ -18,6 +18,7 @@ You can check the required python libraries to run this project [here](https://g
 * The [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cbash#install-the-azure-functions-core-tools) version 3.x
 * The [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for Visual Studio Code
 The [Azure Functions extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions) for Visual Studio Code
+* The [Azurite extension](https://marketplace.visualstudio.com/items?itemName=Azurite.azurite) for testing functions in Visual Studio Code
 
 ## Usage
 * Clone the repository
