@@ -1,0 +1,26 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "input/{name}.txt",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "name": "inputBlob",
+      "type": "blob",
+      "direction": "in",
+      "path": "input/{name}.txt",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "direction": "out",
+      "path": "output/{name}.png",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}
