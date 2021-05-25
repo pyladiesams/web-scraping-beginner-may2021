@@ -8,7 +8,7 @@
 			"isBackground": true,
 			"dependsOn": "pipInstall",
 			"options": {
-				"cwd": "${workspaceFolder}/solutions\\wordcloud_azure_function"
+				"cwd": "${workspaceFolder}/solutions\\wordcloud_azure_function\\BlobTriggerWordcloudAzure"
 			}
 		},
 		{
@@ -25,7 +25,7 @@
 			},
 			"problemMatcher": [],
 			"options": {
-				"cwd": "${workspaceFolder}/solutions\\wordcloud_azure_function"
+				"cwd": "${workspaceFolder}/solutions\\wordcloud_azure_function\\BlobTriggerWordcloudAzure"
 			}
 		}
 	]
