@@ -8,6 +8,7 @@ During the workshop you will learn how to implement a web scraper using Scrapy, 
 
 ## Requirements
 Python version: 3.8.5
+
 You can check the required python libraries to run this project [here](https://github.com/pyladiesams/web-scraping-beginner-may2021/solutions/requirements.txt)
 
 #### Tools:
