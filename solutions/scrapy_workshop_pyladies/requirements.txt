@@ -1,0 +1,5 @@
+scrapy
+protego
+wordcloud
+pillow
+beautifulsoup4
