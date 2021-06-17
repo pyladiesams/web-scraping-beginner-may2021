@@ -128,17 +128,4 @@ obj
 appsettings.json
 local.settings.json
 .python_packages
-
-# VS Code stuff
-.vscode
-.vs
-.vscode/*
-.vs/*
-
-# Blob storage stuff
-__azurite_db_blob__.json
-__azurite_db_blob_extent__.json
-__azurite_db_queue__.json
-__azurite_db_queue_extent__.json
-__queuestorage__/
-__blobstorage__
+sample.dat

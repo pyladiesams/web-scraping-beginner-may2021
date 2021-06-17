@@ -140,7 +140,7 @@ local.settings.json
 # VS Code stuff
 .vs/*
 .vs
-.vscode
+
 .vscode/*
 
 # Blob storage stuff
